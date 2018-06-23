@@ -1,3 +1,4 @@
+//NOTE-ALL THREE FILES MUST BE IN THE SAME FOLDER WHILE RUNNING THIS APP.JS FILE
 const yargs=require('yargs');
 const geocode=require('./geocode.js');
 const weather=require('./weather.js');
