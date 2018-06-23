@@ -12,7 +12,7 @@ module.exports.getWeather=function(lat,lng,callback){
      });
      }
       else{
-        callback('Unable to fetch weather');}
+        callback('Unable to fetch weather details');}
       }
   );
 };
