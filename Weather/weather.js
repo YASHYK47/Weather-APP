@@ -6,7 +6,7 @@ module.exports.getWeather=function(lat,lng,callback){
     json:true
   },(error,response,body)=>{
      if(!error && response.statusCode===200){
-       callback(undefined,{
+       callback(undefined,{                                         //Passing both temperatures as object
          temp:body.currently.temperature,
          aprntemp:body.currently.apparentTemperature
      });
