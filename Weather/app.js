@@ -1,7 +1,7 @@
 //NOTE-ALL THREE FILES MUST BE IN THE SAME FOLDER WHILE RUNNING THIS APP.JS FILE
 const yargs=require('yargs');
-const geocode=require('./geocode.js');
-const weather=require('./weather.js');
+const geocode=require('./geocode.js');    //To get the latitude and longitude of given address
+const weather=require('./weather.js');    //To get Temperature using that latotude and longitude
 
 var argv=yargs.options({
   a:{
