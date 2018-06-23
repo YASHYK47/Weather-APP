@@ -16,8 +16,8 @@ geocode.geocodeAddress(argv.a,(errorMessage,results)=>{
 if(errorMessage){console.log(errorMessage);
 } else{
   console.log(results.address);
-  console.log(`Latitude-${results.latitude} , Longitude-${results.longitude}`);
-  weather.getWeather(results.latitude,results.longitude,(errorMessage,wresults)=>{
+  console.log(`Latitude-${results.latitude} , Longitude-${results.longitude}`);       //Fetching lat and lng
+  weather.getWeather(results.latitude,results.longitude,(errorMessage,wresults)=>{    //Passing lat and lng to Weather File
     if(errorMessage){console.log(errorMessage);
     } else{console.log(`Actually-${wresults.temp}F,It feels like-${wresults.aprntemp}F`);
    }
