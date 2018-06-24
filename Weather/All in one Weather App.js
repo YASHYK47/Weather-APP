@@ -1,3 +1,4 @@
+//This one can be used alone
 const yargs=require('yargs');
 const axios=require('axios');
 
