@@ -1,3 +1,4 @@
+//NOTE-ALL THREE FILES(App.js,Geocode.js and Weather.js) MUST BE IN THE SAME FOLDER WHILE RUNNING THIS APP.JS FILE
 const request=require("request");
 
 module.exports.geocodeAddress=function(adrs,callback){
